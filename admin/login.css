@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: sans-serif, Geneva, Verdana, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+input{
+    padding:2px 5px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.go-back{
+    /* float:right; */
+    background-color: #4e0101;
+    cursor: pointer;
+    /* font-size: 15px; */
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.univ{
+    width:100vw;
+    height:100vh;
+    background-color: #4e0101;
+}
+#signin-body{
+    width:450px;
+    height: 450px;
+    /* background-color: bisque; */
+}
+.toggle{
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tgl-btn-active{
+    height: 45px;
+    width:45%;
+    background-color: bisque;
+    font-size: 21px;
+}
+.tgl-btn-deactive{
+    font-size: 21px;
+    height: 43px;
+    width:45%;
+    color:bisque;
+    border-bottom: 2px solid bisque;
+}
+
+.toggleButton{
+    width: 100%;
+    height: 100%;
+    font-size: 21px;
+    border:none;
+    color:bisque;
+    background-color: #4e0101;
+}
+
+.container{
+    margin:10px auto;
+    height:90%;
+    width: 94%;
+    background-color: bisque;
+}
+
+.form{
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width:300px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+/* form button{
+    border:1px solid grey;
+    background-color: aqua;
+} */
+
+.submission{
+    width:100%;
+    margin-top:0px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.submission button{
+    margin-top: 25px;
+    font-size: 20px;
+    padding:7px 12px;
+    border-radius: 7px;
+    /* background-color: #0378fd;
+    color: white; */
+    background: #f77062;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#register-body{
+    width:450px;
+    height: fit-content;
+    /* display: none; */
+    /* background-color: bisque; */
+}
